@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity3"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="120dp"
+        android:fontFamily="@font/montserrat"
+        android:paddingStart="115dp"
+        android:text="Welcome!"
+        android:textSize="36sp"
+        tools:text="Welcome!" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="220dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/create_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:hint="Create Password"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/create_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#CDDC39"
+        android:fontFamily="@font/montserrat"
+        android:text="Sign up"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/have_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signup"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@null"
+        android:text="Already have an account? Sign in"
+        android:textColor="#7F837E" />
+
+</RelativeLayout>
+
+

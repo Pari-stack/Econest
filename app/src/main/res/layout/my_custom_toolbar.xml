@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="600dp"
+    android:orientation="horizontal"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/menu_btn"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/ic_menu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/my_toolbar_title" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60945924966",
+    "project_id": "econest-72d31",
+    "storage_bucket": "econest-72d31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60945924966:android:52b85ae515ababcfd63ea7",
+        "android_client_info": {
+          "package_name": "com.example.econest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60945924966-rig1l7dn9fjopql1ivmqfl7eesi0ernl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC76Xnz9l_RdWKHix4VaiuBSHCMiNHkrV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60945924966-rig1l7dn9fjopql1ivmqfl7eesi0ernl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

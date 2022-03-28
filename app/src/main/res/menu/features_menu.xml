@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/my_account"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/create_post"
+            android:title="Create Post" />
+
+        <item
+            android:id="@+id/ideas"
+            android:title="Ideas" />
+
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/settings_icon"/>
+
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us" />
+
+</menu>
